@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#container{
+    width: 100%;
+    height: 100%;
+    background-color: darkblue;
+}
+
+#name {
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+
+#content {
+    width: 60%;
+    height: 100%;
+    background-color: cornflowerblue;
+    margin-left: 250px;
+    padding-left: 25px;
+
+}
+
+#footer {
+    padding: 20px;
+    display: flex;
+}
+
+#dadosPessoais {
+    display: flex;
+    flex-direction: column; /* Configurar o layout para coluna */
+    align-items: center; /* Centralizar verticalmente */
+}
+
+#image {
+    margin-bottom: -180px; /* Adicione espaço entre a imagem e o nome */
+}
